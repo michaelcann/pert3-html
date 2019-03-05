@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <style>
+                table , th, td
+                {
+                    margin: 30px;
+                    border: 2px solid #00afff;
+                    border-collapse: collapse; 
+                }
+                th ,td{
+                    padding: 4px 10px;
+                }
+            </style>
+    </head>
+    <body>
+
+        <!--Form-->
+        <form action="">
+            <label for="name">FullName</label>
+            <input id="name" type="text" placeholder="Enter your name">
+            <br>
+            <label for="qty">Quantity</label>
+            <input id= "qty" type="number" inputmode="numeric" pattern="[0-9]*" placeholder="enter number">
+            <br>
+            <label for="pass">Password</label>
+            <input id= "pass" type="password">
+
+            <!--Radio-->
+            <br>
+            Gender
+            <label for="Men">Men</label>
+            <input id= "Men" type="radio" name="Gender" checked>
+
+            <label for="women">women</label>
+            <input id= "women" type="radio" name="Gender">
+            <!--checkbox-->
+            <br>
+            Hobi
+            <input id= "hiking" type="checkbox" name="Hobby" >
+            <label for="hiking">Hiking</label>
+            
+
+            <input id= "sing" type="checkbox" name="Hobby" >
+            <label for="sing">Singging</label>
+            
+            <input id= "sleep" type="checkbox" name="Hobby" >
+            <label for="sleep">Sleeping</label>
+            
+            <input id= "travel" type="checkbox" name="Hobby" >
+            <label for="travel">Travelling</label>
+            <!--area-->
+            <br>
+            Alamat
+            <br>
+            <textarea name="Alamat" id="address" cols="30" rows="5" placeholder="Isi alamat rumah mu"></textarea>
+            <!--selct-->
+            <br>
+            <label for="city">Kota tempat tinggal</label>
+            <select id="city">
+                <option value="Jakbar">Jakarta barat</option>
+                <option value="Jaktim">Jakarta timur</option>
+                <option value="Jakpus">Jakarta pusat</option>
+                <option value="Jaksel">Jakarta selatan</option>
+                <option value="Jakut">Jakarta utara</option>
+            </select>
+            <!--submit-->
+            <br>
+            
+            <input type="submit" name="Submit Form" >
+            
+        </form>
+
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6> 
+        <p>Mom goes to the market</p>
+       <a href="about.html">Ke Halaman About</a>
+       <img src="liv.png" alt="Logo Club" title="Liverpool">
+       <p>Ibu pergi ke <b>Pasar</b></p>
+       <p>Ibu pergi ke <em>Pasar</em></p>
+
+       <table > 
+            <tr>
+                <th> no </th>
+                <td> Nama </td>
+                <th> kelas </th>
+                <th> Hobi </th>
+               </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Mike </td>
+                <td> 10</td>
+                <td> makan</td>
+            </tr> 
+            <tr>
+                    <td> 2 </td>
+                    <td> Ed </td>
+                    <td> 8</td>
+                    <td> Mandi</td>
+            </tr>
+            <tr>
+                    <td> 3 </td>
+                    <td> steve </td>
+                    <td> 6</td>
+                    <td> minum</td>
+            </tr>
+        </table>
+    </body>
+</html>
